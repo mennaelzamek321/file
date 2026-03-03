@@ -1,0 +1,56 @@
+/* تكليف 1 */
+/* 
+--->>html
+<div class="parent">
+  <div class="child">This Is Child <span class="title">Title</span></div>
+  <span class="title">Child Title</span>
+  <p>Paragraph Content</p>
+</div>
+<div class="title">Section Title</div>
+
+*/
+.parent .child .title{
+    color: red;
+}
+.parent .title{
+    color: #0000ff;
+}
+.parent p,
+.title{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+/* تكليف 2  */
+/* 
+-->>>html
+
+        <div> Title One </div>
+        <div> Title Two With More Words</div>
+        <div> Title Three With Many Many Many Words</div>
+        <div class="hidden">Title Three With Many Many Many Words Title
+        Three With Many Many Many Words Title Three
+        With Many Many Many Words Title Three With
+        Many Many Many Words</div>
+*/
+div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(146, 20, 20);
+    width: fit-content;
+    color: white;
+    font-size:larger;
+}
+.hidden{
+    width: 400px;
+    height: 40px;
+    overflow: hidden;
+}
+

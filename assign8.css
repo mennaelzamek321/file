@@ -1,0 +1,270 @@
+/* تكليف 1 */
+/* 
+-->>html
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="black"></div>
+*/
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.green{
+    background-color: rgb(15, 97, 60);
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+.red{
+    background-color: red;
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
+.blue{
+    background-color: rgb(26, 83, 136);
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+.black{
+    background-color: black;
+    z-index: 1;
+    top: 30px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* تكليف 2 */
+/* 
+-->>html
+<div>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sed. Ea ipsum
+  similique quasi rem, fugiat voluptatibus reiciendis nam debitis earum quo veniam
+  laudantium mollitia atque! Laborum ea nam doloribus.
+  <span class="top-left">1</span>
+  <span class="bottom-left">2</span>
+  <span class="top-right">3</span>
+  <span class="bottom-right">4</span>
+</div>
+*/
+div{
+    width: 500px;
+    text-align: center;
+    color: black;
+    background-color: #aaa;
+    border-color: rgb(172, 25, 15) rgb(48, 87, 215) rgb(172, 25, 15) rgb(48, 87, 215);
+    border-style: solid;
+    border-width: 3px;
+    padding: 30px;
+    position: relative;
+}
+span {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(48, 87, 215);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-left {
+  top: -15px;
+  left: -15px;
+}
+
+.bottom-left {
+  bottom: -15px;
+  left: -15px;
+}
+
+.top-right {
+  top: -15px;
+  right: -15px;
+}
+
+.bottom-right {
+  bottom: -15px;
+  right: -15px;
+}
+
+
+
+
+
+
+
+/* تكليف 3  */
+/* 
+-->html
+  <ul class="all">
+        <li class="html">
+            HTML
+            <ol class="first" start="10">
+            <li>Slim</li>
+            <li>Pugjs</li>
+            <li>HAML</li>
+            </ol>
+        </li>
+        <li class="css">
+            CSS
+            <ol class="second" start="10">
+            <li>SASS</li>
+            <li>LESS</li>
+            <li>PostCSS</li>
+            </ol>
+        </li>
+        <li class="js">
+            JavaScript
+            <ul class="third">
+            <li>Vuejs</li>
+            <li>Sveltejs</li>
+            </ul>
+        </li>
+ </ul>
+*/
+.all{
+    width: 400px;
+    list-style-type: none;
+    padding:  0 calc(( 100% - 400px)/2);
+
+}
+.html,
+.css,
+.js{
+    background-color: rgb(231, 225, 225);
+}
+.html .first,
+.css .second,
+.js .third{
+    margin: 10px;
+    padding: 10px;
+}
+.first{
+    list-style-type: decimal;
+    
+}
+.second{
+    list-style-type: upper-roman;
+
+}
+
+.first li,
+.second li,
+.third li{
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* تكليف 4 */
+/* 
+-->>html 
+ <table>
+            <thead>
+                <tr>
+                <th>avatar</th>
+                <th>group</th>
+                <th>name</th>
+                <th>points</th>
+                <th>control</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><img src="https://clipsafari.com/clips/o129841-cartoon-character" alt="avatar pic"></td>
+                <td>ninja</td>
+                <td>Ahmed Mohamed</td>
+                <td>120</td>
+                <td> <span class="view">view</span><span class="delete">delete</span> </td>
+                </tr>
+                <tr>
+                <td><img src="https://clipsafari.com/clips/o129841-cartoon-character" alt="avatar pic"></td>
+                <td rowspan="2">shades</td>
+                <td>Shady Nabil</td>
+                <td>180</td>
+                <td> <span class="view">view</span><span class="delete">delete</span> </td>
+                </tr>
+                <tr>
+                <td><img src="https://clipsafari.com/clips/o129841-cartoon-character" alt="avatar pic"></td>
+                <td>Eman Mohamed</td>
+                <td>160</td>
+                <td> <span class="view">view</span><span class="delete">delete</span> </td>
+                </tr>
+                <tr>
+                <td><img src="https://clipsafari.com/clips/o129841-cartoon-character" alt="avatar pic"></td>
+                <td rowspan="2">Valhala</td>
+                <td>Mohamed Ibrahim</td>
+                <td>190</td>
+                <td> <span class="view">view</span><span class="delete">delete</span> </td>
+                </tr>
+                <tr>
+                <td><img src="https://clipsafari.com/clips/o129841-cartoon-character" alt="avatar pic"></td>
+                <td>Noor Atef</td>
+                <td>110</td>
+                <td> <span class="view">view</span><span class="delete">delete</span> </td>
+                </tr>
+                <tr>
+                <td><img src="https://clipsafari.com/clips/o129841-cartoon-character" alt="avatar pic"></td>
+                <td>Union</td>
+                <td>Mahmoud Adel</td>
+                <td>90</td>
+                <td> <span class="view">view</span><span class="delete">delete</span> </td>
+                </tr>
+            </tbody>
+</table>
+*/
+table{
+    border: 10px solid white;
+}
+thead{
+    background-color:rgb(83, 80, 80);
+
+}
+th{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    background-color:rgb(83, 80, 80);
+    color:white;
+
+
+}
+td{
+    border:0.5 solid white;
+    background-color: #aaa;
+    padding:30px;
+    text-align: center;
+
+}
+span{
+    font-size:10px;
+    margin:2px;
+    padding:3px;
+    cursor: pointer;
+}
+.view{
+    background-color: rgb(41, 100, 168);
+}
+.delete{
+    background-color: brown;
+}

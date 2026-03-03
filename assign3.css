@@ -1,0 +1,59 @@
+/*  تكليف 1  */
+/* 
+-->>> html
+<div class="shape-1"> shape 1 </div>
+<div class="shape-2"> shape 2 </div>
+<div class="shape-3"> shape 3</div> 
+*/
+
+div{
+    display: inline;
+    border-width: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.shape-1{
+    border-color: red;
+    border-style: solid;
+    outline: 5px solid black;
+}
+.shape-2{
+    border-color: blue green;
+    border-style: solid;
+    outline: 5px solid black;
+}
+.shape-3{
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* تكليف 2  */
+/* 
+-->>>html
+<div class="element element-1">This Is Important Note</div>
+<div class="element element-2">This Is Important Note</div>
+<div class="element element-3">This Is Important Note</div>
+*/
+.element{
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.element-1{
+    border-left: 5px solid rgb(156, 31, 137);
+}
+.element-2{
+    visibility: hidden;
+}
+.element-3{
+    border-left: 5px solid rgb(15, 118, 92) ;
+}

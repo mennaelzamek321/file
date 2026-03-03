@@ -1,0 +1,121 @@
+/* تكليف 1 */
+/* 
+-->>>html
+        <div class="parent">
+            <div class="first">
+                <div>full width</div>
+            </div>    
+            <div class="second">
+                <div>1/3</div>
+                <div>1/3</div>
+                <div>1/3</div>
+            </div>
+            <div class="third">
+                <div>1/2</div>
+                <div>1/2</div>
+            </div> 
+            <div class="fourth">  
+                <div>1/4</div>
+                <div>1/4</div>
+                <div>1/4</div>
+                <div>1/4</div>
+            </div>
+              
+            <p class="clear"></p>
+    
+        </div>
+*/
+.parent {
+    width: 800px;   
+    padding: 0px;
+    background-color: #a9a7a7;
+}
+.parent div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.clear{
+    clear:both
+}
+
+
+.first div{
+    float: left;
+    width: calc(100% - 30px);
+    margin: 0  15px 0;
+    background-color: #646060;
+    display: inline-block;
+}
+
+.second div {
+    float: left;
+    width: calc((100% - 60px) / 3);
+    background-color: #646060;
+    margin-left: 15px;
+    display: inline-block;
+
+
+}
+
+.third div {
+    float: left;
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;
+    background-color: #646060;
+    display: inline-block;
+
+}
+
+.fourth div {
+    float: left;
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;
+    background-color: #646060;
+    display: inline-block;
+
+}
+
+.clear{
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* تكليف 2 */
+/* 
+-->>html
+<div class="normal">Normal</div>
+<div class="one">One</div>
+<div class="two">Two</div>
+*/
+div {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color:grey; /* Get The Background From Image */
+  color: black;
+}
+.normal{
+    opacity: 100%;
+}
+.one{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.two{
+    opacity:0.1;
+}
